@@ -14,8 +14,8 @@ import Nav_Mobile from "./components/Nav_Mobile";
 function App() {
   return (
     <div className='App'>
-      <div className='md:container md:mx-auto px-20'>
-        <Nav_Mobile />
+      <div>
+        {/* <Nav_Mobile /> */}
         <Nav />
         <Hero />
         <Projects />
