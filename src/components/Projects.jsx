@@ -3,7 +3,7 @@ import { Component } from "react";
 export class Projects extends Component {
   render() {
     return (
-      <div className='bg-base-200 rounded '>
+      <div className='bg-base-200 rounded pb-1'>
         <projects className='Project_Container '>
           <h1 className=' rounded m-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  delay-3000 animate-pulse h-10 w-40 bg-gradient-to-r from-pink-500 via-pink-200 ...  '>
             Projects

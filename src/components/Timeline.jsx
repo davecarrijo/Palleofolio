@@ -99,7 +99,7 @@ export class Timeline extends Component {
             </li>
           </ul>
         </div>
-        <div className='Timeline_Container_V'>
+        <div className='Timeline_Container_V pr-10'>
           <ul className='timeline timeline-vertical'>
             <li>
               <div className='timeline-start'>2003</div>
