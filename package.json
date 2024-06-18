@@ -1,7 +1,7 @@
 {
   "homepage": "https://davecarrijo.github.io/lazyPage/",
   "name": "react-app",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@ark-ui/react": "^3.3.0",
