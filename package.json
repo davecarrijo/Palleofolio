@@ -1,7 +1,7 @@
 {
-  "homepage": "https://davecarrijo.github.io/lazyPage",
-  "name": "react-app",
-  "private": false,
+  "homepage": "https://davecarrijo.github.io/Palleofolio",
+  "name": "Palleofolio",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
