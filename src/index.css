@@ -25,9 +25,9 @@ code {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  .Nav_Container {
+  /* .Nav_Container {
     display: none;
-  }
+  } */
 
   .Timeline_Container_H {
     display: none;
