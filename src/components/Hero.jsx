@@ -40,7 +40,7 @@ export class Hero extends Component {
                   Designer.<br></br>
                 </p>
               </h1>
-              <p className='  pt-3'>
+              <p className='pt-3'>
                 Hi there 👋, my name is
                 <HoverCard.Root>
                   {" "}
@@ -131,7 +131,7 @@ export class Hero extends Component {
               <div className='menu menu-horizontal bg-base-300 rounded-box mt-2 pl-3'>
                 <span className=' mt-2 flex  font-bold'>I build with ↓</span>
                 <div className='  h-auto   '>
-                  <div className='  lg:flex  mt-2 gap-2'>
+                  <div align='center' className='  flex  lg:flex  mt-2 gap-2'>
                     <code>
                       <img
                         width='50'
