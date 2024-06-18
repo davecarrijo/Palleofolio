@@ -1,6 +1,6 @@
 # Developer Portfolio Website
 
-![3D Parallax Developer Portfolio Thumbnail](url)
+![ Developer Portfolio Thumbnail](url)
 
 ## Introduction
 This is a code repository for my portfolio website showcased
