@@ -28,7 +28,7 @@ export class Hero extends Component {
               </div>
             </div>
             <div>
-              <h1 className='text-6xl sm:text-7xl font-bold'>
+              <h1 className='text-5xl sm:text-7xl font-bold'>
                 <p>
                   <br></br>
                   <div className='text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400'>
@@ -40,6 +40,7 @@ export class Hero extends Component {
                   Designer.<br></br>
                 </p>
               </h1>
+              <div className='tapudo'></div>
               <p className='pt-3'>
                 Hi there 👋, my name is
                 <HoverCard.Root>
