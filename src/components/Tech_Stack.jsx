@@ -29,8 +29,7 @@ export class Tech_Stack extends Component {
                       src='https://github-production-user-asset-6210df.s3.amazonaws.com/136815194/258326081-b113a23c-5c04-45aa-819c-bd04e8ac2a37.png'
                       alt='Neovim'
                       title='Neovim'
-                      className=' hover:animate-bounce'
-                      hover:animate-bounce
+                      className=' hover:animate-bounce '
                     />
                   </code>
                   <code>
@@ -40,7 +39,6 @@ export class Tech_Stack extends Component {
                       alt='Tailwind CSS'
                       title='Tailwind CSS'
                       className=' hover:animate-bounce'
-                      hover:animate-bounce
                     />
                   </code>
                   <code>
@@ -50,7 +48,6 @@ export class Tech_Stack extends Component {
                       alt='React'
                       title='React'
                       className=' hover:animate-bounce'
-                      hover:animate-bounce
                     />
                   </code>
                 </div>
@@ -62,7 +59,6 @@ export class Tech_Stack extends Component {
                       alt='Bun.js'
                       title='Bun.js'
                       className=' hover:animate-bounce'
-                      hover:animate-bounce
                     />
                   </code>
                   <code>
@@ -86,10 +82,10 @@ export class Tech_Stack extends Component {
                   <code>
                     <img
                       width='50'
-                      className='bg-white hover:animate-bounce '
                       src='https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png'
                       alt='mongoDB'
                       title='mongoDB'
+                      className='bg-white hover:animate-bounce '
                     />
                   </code>
                 </div>

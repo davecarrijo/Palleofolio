@@ -1,6 +1,5 @@
 import { Component } from "react";
 import { HoverCard, Portal } from "@ark-ui/react";
-import Tech_Stack from "./Tech_Stack";
 
 export class Hero extends Component {
   render() {
@@ -8,14 +7,14 @@ export class Hero extends Component {
       <div>
         <div className='hero min-h-screen bg-base-300 rounded-box   '>
           <div className='hero-content flex-col lg:flex-row-reverse'>
-            <div className='h-auto '>
+            <div className='h-auto'>
               <img
                 src='https://scontent.flis6-2.fna.fbcdn.net/v/t31.18172-8/14324204_545386972313562_6006055881877513316_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mZQVEAUvfOUQ7kNvgElSroJ&_nc_ht=scontent.flis6-2.fna&oh=00_AYBlZj1u0pkiNh08oJomzGmqEBRhZi4alEhQxeU2w4tsFw&oe=6695C1C3'
                 className='shadow-2xl h-45 '
               />
               <div className='flex-row'>
                 {" "}
-                <p className='text-xs animate-bounce  '>↑ that`s me</p>
+                <p className='text-xs animate-bounce '>↑ that`s me</p>
                 <p className='text-xs ml-10 text-slate-500 '>
                   Picture by{" "}
                   <a
