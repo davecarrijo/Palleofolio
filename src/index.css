@@ -22,7 +22,7 @@ body {
   }
 }
 .tapudo {
-  height: 0.1em;
+  height: 0.2em;
   width: auto;
   color: linear-gradient(#ee7752, #e73c7e, #23a6d5, #23d5ab);
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);

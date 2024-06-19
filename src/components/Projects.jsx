@@ -3,9 +3,9 @@ import { Component } from "react";
 export class Projects extends Component {
   render() {
     return (
-      <div className='bg-base-300 rounded pb-1 p-3'>
+      <div className='bg-base-300 rounded pb- p-3'>
         <projects className='Project_Container '>
-          <h1 className=' rounded m-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  delay-3000 animate-pulse h-10 w-40 bg-gradient-to-r from-indigo-500 via-indigo-200 ...  '>
+          <h1 className='pl-2 rounded m-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  delay-3000 animate-pulse h-10 w-40 bg-gradient-to-r from-indigo-500 via-indigo-200 ...  '>
             Projects
           </h1>
           <div className=' flex-auto lg:flex '>

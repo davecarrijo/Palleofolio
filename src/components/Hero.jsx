@@ -41,7 +41,7 @@ export class Hero extends Component {
                 </p>
               </h1>
               <div className='tapudo'></div>
-              <p className='pt-3'>
+              <p className='pt-3 '>
                 Hi there 👋, my name is
                 <HoverCard.Root>
                   {" "}
@@ -70,7 +70,7 @@ export class Hero extends Component {
                 bring the best response and resolution to get a boost on the
                 team.
               </p>
-              <ul className='menu menu-horizontal bg-base-300 rounded-box lg:mt-10'>
+              <ul className='menu menu-horizontal bg-base-200 rounded-box ml-  lg:mt-10 '>
                 <li>
                   <a href='http://www.github.com/davecarrijo' target='blank'>
                     <svg

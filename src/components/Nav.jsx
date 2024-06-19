@@ -34,9 +34,9 @@ export class Nav extends Component {
       <div>
         <div className='Main_Nav_Container'>
           <div className='Nav_Container'>
-            <div className=' navbar  bg-base-100'>
+            <div className=' navbar bg-base-100'>
               <div className='flex-1'>
-                <a className='btn btn-ghost text-xl'>WAIølos</a>
+                <a className='btn btn-ghost text-xs   lg:text-xl '>WAIølos</a>
               </div>
               <div className='flex-none '>
                 <ul className='menu menu-horizontal px-1 '>
