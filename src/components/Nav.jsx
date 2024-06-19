@@ -78,7 +78,7 @@ export class Nav extends Component {
                   </li>
                   <li>
                     <a
-                      className='greener text-white bg-green-400 hover:bg-green-200 hover:text-black '
+                      className='greener text-white bg-green-400 hover:bg-green-200 hover:animate-pulse hover:bold hover:text-black '
                       href='https://docs.google.com/document/d/1tj9PbFTypZFpbEL9_OdAjHWKA5AhRzuO8Q7eHNMktLM/edit?usp=sharing'
                       target='blank'
                     >
@@ -86,7 +86,7 @@ export class Nav extends Component {
                         <Tooltip.Trigger>Resume</Tooltip.Trigger>
                         <Tooltip.Positioner>
                           <Tooltip.Content>
-                            <p className='text-xs font-thin mt-2dark:text-white'>
+                            <p className='text-xs font-thin mt-2 dark:text-white'>
                               It`s not a download, it`s a drive link
                             </p>
                           </Tooltip.Content>

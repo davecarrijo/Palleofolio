@@ -9,15 +9,15 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
-import Nav_Mobile from "./components/Nav_Mobile";
+import Tech_Stack from "./components/Tech_Stack";
 
 function App() {
   return (
     <div className='App'>
-      <div className='Main_container mr-3 ml-3 lg:mr-32 lg:ml-32'>
-        {/* <Nav_Mobile /> */}
+      <div className='Main_container mr-3 ml-3 lg:mr-52 lg:ml-52'>
         <Nav />
         <Hero />
+        <Tech_Stack />
         <Projects />
         <Timeline />
         <Footer />
