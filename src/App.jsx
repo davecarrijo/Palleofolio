@@ -2,14 +2,17 @@
 import React from "react";
 // Styles imports
 import "./index.css";
+import "./Styles/Buttons.css";
+import "./Styles/Containers.css";
 import "./App.css";
 // Components Imports
 import Nav from "./components/Nav";
-import Hero from "./components/Hero";
+
 import Projects from "./components/Projects";
 import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
 import Tech_Stack from "./components/Tech_Stack";
+import Hero from "./components/Hero";
 
 function App() {
   return (

@@ -5,11 +5,11 @@ export class Projects extends Component {
     return (
       <div className='bg-base-300 rounded pb- p-3'>
         <projects className='Project_Container '>
-          <h1 className='pl-2 rounded m-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white  delay-3000 animate-pulse h-10 w-40 bg-gradient-to-r from-indigo-500 via-indigo-200 ...  '>
+          <h1 className='pl-2 rounded m-2 text-2xl font-bold  tracking-tight text-gray-900 dark:text-white  delay-3000 animate-pulse h-10 w-40 bg-gradient-to-r from-indigo-500 via-indigo-200 ...  '>
             Projects
           </h1>
           <div className=' flex-auto lg:flex '>
-            <div className='m-2 ax-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+            <div className='m-2 ax-w-sm bg-white   border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
               <a href='#'>
                 <img
                   className='rounded-t-lg '
@@ -36,7 +36,7 @@ export class Projects extends Component {
                 <a
                   href='https://davecarrijo.github.io/Library-Bookyfied/'
                   target='blank'
-                  className='  mr-1 inline-flex mt-1  items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600  dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400 -to-r from-blue-600 via-pink-500 to-indigo-400 dark:focus:'
+                  className='  mr-1 inline-flex mt-1  items-center px-3 py-2 text-sm font-medium text-center font-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600  dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400 -to-r from-blue-600 via-pink-500 to-indigo-400 dark:focus:'
                 >
                   Live
                   <svg
@@ -58,7 +58,7 @@ export class Projects extends Component {
                 <a
                   href='https://github.com/davecarrijo/Library-Bookyfied'
                   target='blank'
-                  className='mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
+                  className='mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center font-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
                 >
                   Code
                   <svg
@@ -101,7 +101,7 @@ export class Projects extends Component {
                 <a
                   href='https://davecarrijo.github.io/Treemew/'
                   target='blank'
-                  className=' mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
+                  className=' mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center font-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
                 >
                   Live
                   <svg
@@ -123,7 +123,7 @@ export class Projects extends Component {
                 <a
                   href='https://github.com/davecarrijo/Treemew'
                   target='blank'
-                  className='   mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
+                  className='   mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center font-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
                 >
                   Code
                   <svg
@@ -177,7 +177,7 @@ export class Projects extends Component {
                 </p>
                 <a
                   href='https://github.com/davecarrijo/Vitrix/archive/refs/heads/master.zip'
-                  className=' mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
+                  className=' mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center font-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
                 >
                   Download
                   <svg
@@ -199,7 +199,7 @@ export class Projects extends Component {
                 <a
                   href='https://github.com/davecarrijo/Vitrix'
                   target='blank'
-                  className='   mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
+                  className='   mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center font-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
                 >
                   Code
                   <svg
@@ -243,7 +243,7 @@ export class Projects extends Component {
                 <a
                   href='https://davecarrijo.github.io/Old_Portfolio-Resume/'
                   target='blank'
-                  className=' bg-cover bg-center mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
+                  className=' bg-cover bg-center mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center font-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
                 >
                   Live
                   <svg
@@ -265,7 +265,7 @@ export class Projects extends Component {
                 <a
                   href='https://github.com/davecarrijo/Old_Portfolio-Resume'
                   target='blank'
-                  className='   mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
+                  className='   mr-1 inline-flex mt-1 tems-center px-3 py-2 text-sm font-medium text-center font-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:dark:hover:bg-gradient-to-r from-blue-600 via-pink-500 to-indigo-400  dark:focus:ring-blue-800'
                 >
                   Code
                   <svg
@@ -286,8 +286,16 @@ export class Projects extends Component {
                 </a>
               </div>
             </div>
-            {/* eae */}
           </div>
+          <h3>
+            <a
+              className=' btn - btn-base/200 text-xl grid justify-items-end '
+              href='https://github.com/davecarrijo?tab=repositories'
+              target='blank'
+            >
+              More...
+            </a>
+          </h3>
         </projects>
       </div>
     );

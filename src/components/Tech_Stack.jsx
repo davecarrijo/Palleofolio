@@ -4,7 +4,7 @@ import { HoverCard, Portal } from "@ark-ui/react";
 export class Tech_Stack extends Component {
   render() {
     return (
-      <div className=' border-slate-600 mt-10 mb-10 '>
+      <div className=' border-slate-600 mt-2 mb-2 '>
         <div className='Tech_Container'>
           {" "}
           <div className=' bg-base-300 rounded-box mt-2 p-2 pb-5 mb-3'>

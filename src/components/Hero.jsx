@@ -1,11 +1,11 @@
 import { Component } from "react";
 import { HoverCard, Portal } from "@ark-ui/react";
 
-export class Hero extends Component {
+export class About extends Component {
   render() {
     return (
       <div>
-        <div className='hero min-h-screen bg-base-300 rounded-box   '>
+        <div className='bg-base-300 rounded-box   '>
           <div className='hero-content flex-col lg:flex-row-reverse'>
             <div className='h-auto'>
               <img
@@ -14,7 +14,9 @@ export class Hero extends Component {
               />
               <div className='flex-row'>
                 {" "}
-                <p className='text-xs animate-bounce '>↑ that`s me</p>
+                <p className='text-xs animate-bounce hover:pause '>
+                  ↑ that`s me
+                </p>
                 <p className='text-xs ml-10 text-slate-500 '>
                   Picture by{" "}
                   <a
@@ -64,12 +66,25 @@ export class Hero extends Component {
               </p>
               <p className='pt-3'> </p>
               <p className='py-1 font-light'>
-                I’m currently learning computer science on college.<br></br>I
+                I am currently available for freelance work 🟢 .<br></br>I
                 define myself as someone who is able to adapt to any situation
                 and find the best way to solve complex and simple problems. And
                 bring the best response and resolution to get a boost on the
                 team.
               </p>
+              <div className='flex gap-1 mb-2'>
+                <button className='btn'>
+                  <a
+                    href='https://wa.me/+351930548674 '
+                    target='_blank'
+                    rel='Personal Whatzap'
+                  >
+                    {" "}
+                    Appoint a Meeting ↗
+                  </a>
+                </button>
+                {/* <button className='btn'>quick doubts?</button> */}
+              </div>
               <ul className='menu menu-horizontal bg-base-200 rounded-box ml-  lg:mt-10 '>
                 <li>
                   <a href='http://www.github.com/davecarrijo' target='blank'>
@@ -137,4 +152,4 @@ export class Hero extends Component {
   }
 }
 
-export default Hero;
+export default About;
