@@ -80,7 +80,7 @@ export class About extends Component {
                     rel='Personal Whatzap'
                   >
                     {" "}
-                    Appoint a Meeting ↗
+                    Contact-me↗
                   </a>
                 </button>
                 {/* <button className='btn'>quick doubts?</button> */}
