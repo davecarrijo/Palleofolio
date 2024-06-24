@@ -66,26 +66,25 @@ export class About extends Component {
               </p>
               <p className='pt-3'> </p>
               <p className='py-1 font-light'>
-                I am currently available for freelance work 🟢 .<br></br>I
-                define myself as someone who is able to adapt to any situation
-                and find the best way to solve complex and simple problems. And
-                bring the best response and resolution to get a boost on the
-                team.
+                I am currently available for freelance work.
+                <br></br>I define myself as someone who is able to adapt to any
+                situation and find the best way to solve complex and simple
+                problems. And bring the best response and resolution to get a
+                boost on the team.
               </p>
               <div className='flex gap-1 mb-2'>
-                <button className='btn'>
+                <button className='btn mt-3 hover:text-slate-400'>
                   <a
                     href='https://wa.me/+351930548674 '
                     target='_blank'
                     rel='Personal Whatzap'
                   >
                     {" "}
-                    Contact-me↗
+                    Contact-me <span className=' hover:animate-ping '>↗</span>
                   </a>
                 </button>
-                {/* <button className='btn'>quick doubts?</button> */}
               </div>
-              <ul className='menu menu-horizontal bg-base-200 rounded-box ml-  lg:mt-10 '>
+              <ul className='menu menu-horizontal bg-base-200 rounded-box ml-  lg:mt-3 '>
                 <li>
                   <a href='http://www.github.com/davecarrijo' target='blank'>
                     <svg
@@ -140,6 +139,20 @@ export class About extends Component {
                         // Twitter Icon
                         d='M2 18.5C3.765 19.521 5.814 20 8 20c6.48 0 11.762-5.137 11.992-11.562L22 4.5l-3.354.5A4 4 0 0 0 16 4c-2.572 0-4.5 2.517-3.88 4.98c-3.552.23-6.771-1.959-8.633-4.875c-1.236 4.197-.09 9.251 3.013 12.366c0 1.176-3 1.878-4.5 2.029'
                       />
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://www.deviantart.com/waiolos' target='blank'>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      className='h-7 w-7 hover:animate-spin '
+                      viewBox='0 0 50 50 '
+                    >
+                      <path
+                        // Deviant art
+                        d='M 37 13 L 29 28 L 37 28 L 37 38 L 23.699219 38 L 20 45 L 12 45 L 12 37 L 19.898438 22 L 12 22 L 12 12 L 25.199219 12 L 28.898438 5 L 37 5 C 37 7.667969 37 10.332031 37 13 Z M 30.105469 7 L 26.40625 14 L 14 14 L 14 20 L 21.996094 20 L 22.648438 21.078125 L 14 37.492188 L 14 43 L 18.796875 43 L 22.496094 36 L 35 36 L 35 30 L 26.902344 30 L 26.246094 28.910156 L 35 12.5 L 35 7 C 33.367188 7 31.738281 7 30.105469 7 Z'
+                      ></path>{" "}
                     </svg>
                   </a>
                 </li>

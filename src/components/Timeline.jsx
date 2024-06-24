@@ -71,7 +71,7 @@ export class Timeline extends Component {
                 className='  timeline-end timeline-box text-sm '
               >
                 High School<br></br>
-                (Science & tecnology)
+                (Science & technology)
               </div>
               <hr />
             </li>
@@ -163,7 +163,7 @@ export class Timeline extends Component {
               </div>
               <div className='timeline-end timeline-box text-sm'>
                 High School<br></br>
-                (Science & tecnology)
+                (Science & technology)
               </div>
               <hr />
             </li>
