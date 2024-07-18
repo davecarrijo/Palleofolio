@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { HoverCard, Portal } from "@ark-ui/react";
+import IDimg from "../assets/image.png";
 
 export class About extends Component {
   render() {
@@ -8,10 +9,7 @@ export class About extends Component {
         <div className='bg-base-300 rounded-box   '>
           <div className='hero-content flex-col lg:flex-row-reverse'>
             <div className='h-auto'>
-              <img
-                src='https://scontent.flis6-2.fna.fbcdn.net/v/t31.18172-8/14324204_545386972313562_6006055881877513316_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=mZQVEAUvfOUQ7kNvgElSroJ&_nc_ht=scontent.flis6-2.fna&oh=00_AYBlZj1u0pkiNh08oJomzGmqEBRhZi4alEhQxeU2w4tsFw&oe=6695C1C3'
-                className='shadow-2xl h-45 '
-              />
+              <img src={IDimg} alt='ID' className='shadow-2xl h-45 ' />
               <div className='flex-row'>
                 {" "}
                 <p className='text-xs animate-bounce hover:pause '>
@@ -147,6 +145,7 @@ export class About extends Component {
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       className='h-7 w-7 hover:animate-spin '
+                      stroke='currentColor'
                       viewBox='0 0 50 50 '
                     >
                       <path
