@@ -81,6 +81,16 @@ export class About extends Component {
                     Contact-me <span className=' hover:animate-ping '>↗</span>
                   </a>
                 </button>
+                <button className='btn mt-3 hover:text-slate-400'>
+                  <a
+                    href='https://calendly.com/davecarrijo/30min'
+                    target='_blank'
+                    rel='Personal Whatzap'
+                  >
+                    {" "}
+                    Book a time <span className=' hover:animate-ping '>↗</span>
+                  </a>
+                </button>
               </div>
               <ul className='menu menu-horizontal bg-base-200 rounded-box ml-  lg:mt-3 '>
                 <li>
