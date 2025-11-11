@@ -18,7 +18,7 @@ export class Footer extends Component {
                     className='hover:text-cyan-500'
                     href='mailto:davecarrijodev@gmail.com'
                   >
-                    | davecarrijodev@gmail.com
+                    | David Carrijo
                   </a>
                 </p>
               </div>

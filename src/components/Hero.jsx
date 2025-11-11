@@ -6,13 +6,13 @@ export class About extends Component {
   render() {
     return (
       <div>
-        <div className='bg-base-300 rounded-box   '>
-          <div className='hero-content flex-col lg:flex-row-reverse'>
+        <div>
+          <div className='  hero-content flex-col lg:flex-row-reverse'>
             <div className='h-auto'>
               <img src={IDimg} alt='ID' className='shadow-2xl h-45 ' />
-              <div className='flex-row'>
+              <div className='flex-row  '>
                 {" "}
-                <p className='text-xs animate-bounce hover:pause '>
+                <p className=' text-xs animate-pulse hover:pause '>
                   ↑ that`s me
                 </p>
                 <p className='text-xs ml-10 text-slate-500 '>
@@ -92,12 +92,12 @@ export class About extends Component {
                   </a>
                 </button>
               </div>
-              <ul className='menu menu-horizontal bg-base-200 rounded-box ml-  lg:mt-3 '>
+              <ul className='menu menu-horizontal '>
                 <li>
                   <a href='http://www.github.com/davecarrijo' target='blank'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
-                      className='h-7 w-7 hover:animate-spin '
+                      className='h-7 w-7 hover:animate-pulse '
                       fill='none'
                       viewBox='0 0 24 24'
                       stroke='currentColor'
@@ -116,7 +116,7 @@ export class About extends Component {
                   <a href='http://www.linkedin.com/davecarrijo' target='blank'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
-                      className='h-7 w-7 hover:animate-spin '
+                      className='h-7 w-7 hover:animate-pulse '
                       fill='none'
                       viewBox='0 0 24 24'
                       stroke='currentColor'
@@ -135,7 +135,7 @@ export class About extends Component {
                   <a href='http://www.twitter.com/davecarrijo' target='blank'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
-                      className='h-7 w-7 hover:animate-spin '
+                      className='h-7 w-7 hover:animate-pulse '
                       fill='none'
                       viewBox='0 0 24 24'
                       stroke='currentColor'
@@ -154,7 +154,7 @@ export class About extends Component {
                   <a href='https://www.deviantart.com/waiolos' target='blank'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
-                      className='h-7 w-7 hover:animate-spin '
+                      className='h-7 w-7 hover:animate-pulse '
                       stroke='currentColor'
                       viewBox='0 0 50 50 '
                     >
@@ -162,6 +162,19 @@ export class About extends Component {
                         // Deviant art
                         d='M 37 13 L 29 28 L 37 28 L 37 38 L 23.699219 38 L 20 45 L 12 45 L 12 37 L 19.898438 22 L 12 22 L 12 12 L 25.199219 12 L 28.898438 5 L 37 5 C 37 7.667969 37 10.332031 37 13 Z M 30.105469 7 L 26.40625 14 L 14 14 L 14 20 L 21.996094 20 L 22.648438 21.078125 L 14 37.492188 L 14 43 L 18.796875 43 L 22.496094 36 L 35 36 L 35 30 L 26.902344 30 L 26.246094 28.910156 L 35 12.5 L 35 7 C 33.367188 7 31.738281 7 30.105469 7 Z'
                       ></path>{" "}
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href='https://medium.com/@davecarrijodev' target='blank'>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      className='h-7 w-7 hover:animate-pulse '
+                      stroke='currentColor'
+                      viewBox='0 -2 15 20'
+                    >
+                      <path d='M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z' />
+                      <path d='M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z' />
                     </svg>
                   </a>
                 </li>

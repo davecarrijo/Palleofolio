@@ -20,6 +20,7 @@
     "@react-hook/media-query": "^1.1.1",
     "@uidotdev/usehooks": "^2.4.1",
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.39",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -40,6 +41,6 @@
     "framer-motion": "^11.2.10",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animated": "^1.1.1",
-    "vite": "^5.3.1"
+    "vite": "^5.4.21"
   }
 }
